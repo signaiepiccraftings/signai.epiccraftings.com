@@ -45,7 +45,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-tight"
+            className="text-4xl md:text-5xl lg:text-5xl font-black text-white mb-6 leading-tight"
           >
             Transform Ideas Into
             <span className="block bg-gradient-to-r from-brand-cyan to-brand-pink bg-clip-text text-transparent">
