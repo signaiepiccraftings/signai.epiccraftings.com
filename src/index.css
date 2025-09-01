@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SignAI SaaS Landing Page Design System - Modern gradients and professional colors */
+
+@layer base {
+  :root {
+    /* Core brand colors - Blue-purple gradient theme */
+    --background: 0 0% 100%;
+    --foreground: 231 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 231 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 231 84% 4.9%;
+
+    /* Primary brand - Deep blue */
+    --primary: 231 48% 48%;
+    --primary-foreground: 0 0% 98%;
+    
+    /* Secondary brand - Purple accent */
+    --secondary: 262 52% 47%;
+    --secondary-foreground: 0 0% 98%;
+
+    /* Accent colors */
+    --accent: 231 48% 95%;
+    --accent-foreground: 231 48% 48%;
+
+    --muted: 231 13% 96%;
+    --muted-foreground: 231 13% 45%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 231 13% 91%;
+    --input: 231 13% 91%;
+    --ring: 231 48% 48%;
+
+    /* Custom SignAI brand colors */
+    --brand-blue: 231 48% 48%;
+    --brand-purple: 262 52% 47%;
+    --brand-cyan: 187 85% 53%;
+    --brand-pink: 329 86% 70%;
+    
+    /* Gradient stops */
+    --gradient-from: 231 48% 48%;
+    --gradient-via: 262 52% 47%;
+    --gradient-to: 187 85% 53%;
+    
+    /* Hero gradient */
+    --hero-gradient-from: 231 48% 48%;
+    --hero-gradient-to: 262 52% 47%;
+    
+    /* CTA gradient */
+    --cta-gradient-from: 187 85% 53%;
+    --cta-gradient-to: 231 48% 48%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 231 84% 4.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 231 84% 4.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 231 84% 4.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 231 48% 58%;
+    --primary-foreground: 231 84% 4.9%;
+
+    --secondary: 262 52% 57%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 231 32.6% 17.5%;
+    --muted-foreground: 231 20.2% 65.1%;
+
+    --accent: 231 32.6% 17.5%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 231 32.6% 17.5%;
+    --input: 231 32.6% 17.5%;
+    --ring: 231 48% 58%;
+
+    /* Dark mode gradients */
+    --gradient-from: 231 48% 58%;
+    --gradient-via: 262 52% 57%;
+    --gradient-to: 187 85% 63%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
